@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(250, 230, 234);
+}
+
+h1{
+    color: rgb(144, 63, 80);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav main"
+    "nav sidebar"
+    "nav aside"
+    "footer footer";    
+    
+    /*"header header header"
+    "nav main main"
+    "nav aside sidebar"
+    "footer footer footer";*/
+    gap: 10px
+}
+
+img{
+    width: 400px;
+    border-radius: 30px;
+}
+
+header{
+    grid-area: header;
+    background-color: lightpink;
+}
+
+nav{
+    grid-area: nav;
+    background-color: rgb(255, 215, 182);
+}
+
+footer
+{
+    grid-area: footer;
+    background-color: rgb(212, 212, 212);
+}
+
+sidebar
+{
+    grid-area: sidebar;
+    background-color: rgb(212, 212, 212);
+}
+
+
+
+
+
+.grid-item{
+    background-color: lightpink;
+    border: 5px, rgb(240, 132, 149);
+    border-style: ridge;
+    color: rgb(144, 63, 80);
+}
